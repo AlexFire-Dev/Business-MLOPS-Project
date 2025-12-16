@@ -65,7 +65,7 @@ class BatchPredictRequest(BaseModel):
 
 @app.get("/health")
 def health():
-    return {"status": "ok", "model_uri": MODEL_URI}
+    return {"status": "ok", "model_uri": MODEL_CB_PATH}
 
 
 @app.post("/predict")
