@@ -1,0 +1,41 @@
+artifact_path: file:///Users/alex/dev/DAIB_project/mlruns/921718720432123846/models/m-7b104c62922046008addf1296070033f/artifacts
+flavors:
+  catboost:
+    catboost_version: 1.2.8
+    code: null
+    data: model.cb
+    model_type: CatBoostClassifier
+    save_format: cbm
+  python_function:
+    data: model.cb
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.catboost
+    python_version: 3.10.1
+is_signature_from_type_hint: false
+mlflow_version: 3.7.0
+model_id: m-7b104c62922046008addf1296070033f
+model_size_bytes: 3601875
+model_uuid: m-7b104c62922046008addf1296070033f
+prompts: null
+run_id: 6af00ddd008b4d3ca702042bb2cd65ee
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  serving_input_path: serving_input_example.json
+  type: dataframe
+signature:
+  inputs: '[{"type": "long", "name": "LOAN", "required": true}, {"type": "double",
+    "name": "MORTDUE", "required": true}, {"type": "double", "name": "VALUE", "required":
+    true}, {"type": "string", "name": "REASON", "required": true}, {"type": "string",
+    "name": "JOB", "required": true}, {"type": "double", "name": "YOJ", "required":
+    true}, {"type": "double", "name": "DEROG", "required": true}, {"type": "double",
+    "name": "DELINQ", "required": true}, {"type": "double", "name": "CLAGE", "required":
+    true}, {"type": "double", "name": "NINQ", "required": true}, {"type": "double",
+    "name": "CLNO", "required": true}, {"type": "double", "name": "DEBTINC", "required":
+    false}]'
+  outputs: '[{"type": "long", "required": true}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2025-12-16 13:57:01.377279'

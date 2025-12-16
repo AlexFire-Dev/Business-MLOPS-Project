@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/alex/dev/DAIB_project/mlruns/921718720432123846/6af00ddd008b4d3ca702042bb2cd65ee/artifacts
+end_time: 1765893423824
+entry_point_name: ''
+experiment_id: '921718720432123846'
+lifecycle_stage: active
+run_id: 6af00ddd008b4d3ca702042bb2cd65ee
+run_name: catboost_gridsearch_v1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1765893385226
+status: 3
+tags: []
+user_id: alex

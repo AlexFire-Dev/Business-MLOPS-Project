@@ -1,0 +1,1 @@
+{'iterations': [700, 900], 'depth': [6, 8], 'learning_rate': [0.02, 0.03], 'l2_leaf_reg': [1, 3]}

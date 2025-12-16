@@ -1,0 +1,25 @@
+services:
+  api:
+    build: .
+    container_name: hmeq-api
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./mlruns:/mlruns
+      - ./data/:/app/data/
+    environment:
+      LOCATION: "/mlruns"
+      MODEL_ID: "m-7b104c62922046008addf1296070033f"
+      EXP_ID: "921718720432123846"
+    restart: unless-stopped
+
+  evidently:
+    build:
+      context: ./evidently
+      dockerfile: Dockerfile
+    container_name: evidently-dashboard
+    ports:
+      - "8001:8000"
+    volumes:
+      - ./data/:/data/
+    restart: unless-stopped

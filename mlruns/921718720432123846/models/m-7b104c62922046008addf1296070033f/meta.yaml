@@ -1,0 +1,10 @@
+artifact_location: file:///Users/alex/dev/DAIB_project/mlruns/921718720432123846/models/m-7b104c62922046008addf1296070033f/artifacts
+creation_timestamp: 1765893421367
+experiment_id: '921718720432123846'
+last_updated_timestamp: 1765893423812
+model_id: m-7b104c62922046008addf1296070033f
+model_type: null
+name: model
+source_run_id: 6af00ddd008b4d3ca702042bb2cd65ee
+status: 2
+status_message: null
